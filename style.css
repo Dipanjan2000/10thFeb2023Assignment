@@ -1,0 +1,121 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: #02102d;
+    text-align: center;
+}
+.hambrger{
+    margin: 10px;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    display: none;
+}
+.list{
+    float: right;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    color: #ffffff;
+    margin: 20px 20px;
+}
+.listitems{
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px 10px;
+}
+h1{
+    color: #ffffff;
+    text-decoration: underline #0a03eb;
+    text-decoration-thickness: 2px;
+    font-weight: bolder;
+    padding: 50px;
+}
+.main{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 30px;
+}
+.pcimg{
+    height: 350px;
+    width: 350px;
+}
+.intro{
+    color: #ffffff;
+    padding-top: 10px;
+    text-align: left;
+}
+.dev{
+    color: #ffd700;
+}
+.div1{
+    display: flex;
+    justify-content: center;
+}
+.div2{
+    display: flex;
+    justify-content: center;
+}
+.projimg{
+    padding: 10px;
+    height: 150px;
+    width: 150px;
+}
+p{
+    color: #ffffff;
+}
+.logo{
+    height: 25px;
+    width: 25px;
+    margin-bottom: 20px;
+}
+.contactlogo{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 20px;
+    justify-content: center;
+}
+.listitems:hover{
+    background-color: #2d094b;
+    border-radius: 20px;
+}
+
+
+@media screen and (max-width:750px){
+body{
+    align-items: center;
+    justify-content: space-around;
+}
+.greet{
+    text-align: center;
+}
+.name{
+    text-align: center;
+    font-size: x-large;
+}
+.dev{
+    padding-top: 10px;
+    text-align: center;
+}
+.list{
+    display: none;
+}
+.hambrger{
+    display: block;
+}
+.main{
+    flex-direction: column;
+}
+.div1{
+    flex-direction: column;
+    justify-content: center;
+}
+.div2{
+    flex-direction: column;
+}
+}
